@@ -1,0 +1,8 @@
+{
+  "name": "canadavisa-functions",
+  "version": "1.0.0",
+  "description": "Netlify Functions for Canada Visa Jobs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
