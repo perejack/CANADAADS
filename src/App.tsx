@@ -14,7 +14,6 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import CanadaJobsApp from "./components/CanadaJobsApp";
 import { useScrollToTop } from '@/hooks/useScrollToTop';
-import WhatsAppChatButton from "./components/WhatsAppChatButton";
 
 const queryClient = new QueryClient();
 
@@ -44,7 +43,6 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <WhatsAppChatButton />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
