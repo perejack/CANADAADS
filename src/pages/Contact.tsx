@@ -17,16 +17,6 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <div className="bg-primary/10 p-3 rounded-full">
-                  <Phone className="w-6 h-6 text-primary" />
-                </div>
-                <div>
-                  <p className="font-semibold text-foreground">Phone</p>
-                  <p className="text-muted-foreground">0755295635</p>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-4">
-                <div className="bg-primary/10 p-3 rounded-full">
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <div>
