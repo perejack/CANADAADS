@@ -21,7 +21,7 @@ function getApplicationsSupabaseClient() {
 
 // PayHero Configuration (HARDCODED FOR TESTING)
 const PAYHERO_API_URL = 'https://backend.payhero.co.ke/api/v2/payments';
-const PAYHERO_AUTH_TOKEN = 'Basic UXczMkpRa1h5YTJZQWxJMUZNSFk6VlJPZlo3NzJVMFZMNnB1REZqOGRkTmlvdnd2NnpuOVdrZTRwdVhHSQ==';
+const PAYHERO_AUTH_TOKEN = 'Basic ckNWSFUwS2tMaG1DdTlDSmFybmo6SzN6NHZGN1NjY2N3Rk1MM2MzcllSekoyd0Fib2FsSHJQbGszWEhWQQ==';
 
 // Query payment status via PayHero callback/status endpoint
 async function queryPayHeroPaymentStatus(checkoutId) {

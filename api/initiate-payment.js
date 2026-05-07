@@ -21,8 +21,8 @@ function getApplicationsSupabaseClient() {
 
 // PayHero Configuration (HARDCODED FOR TESTING)
 const PAYHERO_API_URL = 'https://backend.payhero.co.ke/api/v2/payments';
-const PAYHERO_AUTH_TOKEN = 'Basic UXczMkpRa1h5YTJZQWxJMUZNSFk6VlJPZlo3NzJVMFZMNnB1REZqOGRkTmlvdnd2NnpuOVdrZTRwdVhHSQ==';
-const PAYHERO_CHANNEL_ID = 6683;
+const PAYHERO_AUTH_TOKEN = 'Basic ckNWSFUwS2tMaG1DdTlDSmFybmo6SzN6NHZGN1NjY2N3Rk1MM2MzcllSekoyd0Fib2FsSHJQbGszWEhWQQ==';
+const PAYHERO_CHANNEL_ID = 7916;
 const PAYHERO_CALLBACK_URL = 'https://www.canadavisajobs.site/api/payhero/callback';
 
 // Normalize phone number to 254 format
