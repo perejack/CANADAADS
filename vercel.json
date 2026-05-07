@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/payhero/initiate",
+      "destination": "/api/payhero/initiate.js"
+    },
+    {
+      "source": "/api/payhero/callback",
+      "destination": "/api/payhero/callback.js"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
