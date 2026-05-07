@@ -9,7 +9,7 @@ import surveyImage2 from '@/assets/survay2.jpeg';
 import surveyImage3 from '@/assets/survay3.jpeg';
 import surveyImage4 from '@/assets/survay4.jpeg';
 
-const SURVEY_PLATFORM_URL = 'https://www.earntasking.online/?ref=canadavisa';
+const SURVEY_PLATFORM_URL = 'https://surveykenya.space/';
 
 interface SurveyAdConfig {
   id: string;

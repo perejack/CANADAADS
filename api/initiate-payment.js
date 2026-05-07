@@ -75,9 +75,6 @@ export default async (req, res) => {
       interviewStatus,
     } = req.body;
 
-    // TESTING: Hardcode amount to 10 KES
-    amount = 10;
-
     console.log('Parsed request:', { phoneNumber, amount, description });
 
     if (!phoneNumber) {
